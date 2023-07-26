@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class StartWind : BaseWind
 {
     public override void Initial()
@@ -29,5 +28,6 @@ public class StartWind : BaseWind
     private void OnStartClick()
     {
         CloseWind();
+        WinManager.Instance.OpenWnd<BattleWnd>();
     }
 }

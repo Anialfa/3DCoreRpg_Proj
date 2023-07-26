@@ -55,21 +55,23 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csParticleMove.cs" />
-    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csMouseOrbit.cs" />
-    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csParticleEffectPackLightControl.cs" />
-    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csDestroyEffect.cs" />
-    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csShowAllEffect.cs" />
     <Compile Include="Assets\ExternalAsset\CaptainCatSparrow\ArmorAndJewelry\Scenes\Scripts\DropObject.cs" />
     <Compile Include="Assets\ExternalAsset\CaptainCatSparrow\ArmorAndJewelry\Scenes\Scripts\DragObject.cs" />
-    <Compile Include="Assets\ExternalAsset\CaptainCatSparrow\ArmorAndJewelry\Scenes\Scripts\Demo.cs" />
-    <Compile Include="Assets\ExternalAsset\UrsaAnimation\LOW POLY CUBIC - Goat and Sheep Pack\scripts\AnimationController.cs" />
+    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csParticleMove.cs" />
+    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csMouseOrbit.cs" />
     <Compile Include="Assets\ExternalAsset\Polytope Studio\Lowpoly_Characters\Sources\Scripts\PT_Create_Prefab.cs" />
-    <Compile Include="Assets\Scripts\Framework\WinManager.cs" />
-    <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
+    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csParticleEffectPackLightControl.cs" />
+    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csDestroyEffect.cs" />
+    <Compile Include="Assets\ExternalAsset\CaptainCatSparrow\ArmorAndJewelry\Scenes\Scripts\Demo.cs" />
+    <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csShowAllEffect.cs" />
     <Compile Include="Assets\Scripts\UiWind\BaseWind.cs" />
-    <Compile Include="Assets\Scripts\Framework\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\WinManager.cs" />
     <Compile Include="Assets\Scripts\UiWind\StartWind.cs" />
+    <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Framework\GameManager.cs" />
+    <Compile Include="Assets\ExternalAsset\UrsaAnimation\LOW POLY CUBIC - Goat and Sheep Pack\scripts\AnimationController.cs" />
+    <Compile Include="Assets\Scripts\UiWind\BattleWnd.cs" />
+    <Compile Include="Assets\Scripts\Framework\DataManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -290,6 +292,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>G:\UnityEditor\2020.1.3f1c1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>G:\UnityEditor\2020.1.3f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
