@@ -66,12 +66,13 @@
     <Compile Include="Assets\ExternalAsset\48 Particle Effect Pack\Script\csShowAllEffect.cs" />
     <Compile Include="Assets\Scripts\UiWind\BaseWind.cs" />
     <Compile Include="Assets\Scripts\Framework\WinManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\DataManager.cs" />
     <Compile Include="Assets\Scripts\UiWind\StartWind.cs" />
     <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
     <Compile Include="Assets\Scripts\Framework\GameManager.cs" />
-    <Compile Include="Assets\ExternalAsset\UrsaAnimation\LOW POLY CUBIC - Goat and Sheep Pack\scripts\AnimationController.cs" />
     <Compile Include="Assets\Scripts\UiWind\BattleWnd.cs" />
-    <Compile Include="Assets\Scripts\Framework\DataManager.cs" />
+    <Compile Include="Assets\ExternalAsset\UrsaAnimation\LOW POLY CUBIC - Goat and Sheep Pack\scripts\AnimationController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCtrl.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
